@@ -133,7 +133,7 @@ struct OTPView: View {
             .navigationDestination(isPresented: $navigateToDashboard) {
                 switch role {
                 case "SuperAdminDashboard":
-                    SuperAdminDashboard()
+                    SuperAdminDashboardView()
                 case "AdminDashboard":
                     AdminDashboard()
                 case "LibrarianDashboard":
